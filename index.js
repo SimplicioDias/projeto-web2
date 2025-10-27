@@ -1,38 +1,50 @@
 const express = require('express')
 const app = express()
+require('dotenv').config()
 
 const horarioPermitido = require('./middleware/horarioPermitido.js')
+const PDFKIT = require('pdfkit')
+const fs = require('fs')
 const jwt = require('jsonwebtoken')
-app.use(express.json)
-app.use(express.urlencoded({ extended: true }))
+const loginRouter = require('./routes/loginRouter')
+const { type } = require('os')
 
-//Middleware
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
+//Middleware  
 app.use(horarioPermitido)
+app.use(express.static('public'))
+app.use(loginRouter)
 
 const verificarJWT = (req, res, next) => {
-    const token = req.body.token;
+    let token = (req.body && req.body.token) || req.headers['authorization'] || req.query.token;
     if (!token) {
-        throw "Token não foi enviado";
-    } 
+        return res.status(401).json({ error: true, mensagem: 'Token não enviado' })
+    }
+    if (typeof token === 'string') {
+        token = token.trim();
+        if (token.toLowerCase().startsWith('bearer ')) {
+            token = token.slice(7).trim();
+        }
+    }
     jwt.verify(token, process.env.APP_KEY, (err, decoded) => {
         if (err) {
-            throw "Falha na autenticação";
+            return res.status(401).json({ error: true, mensagem: 'Falha na autenticação' })
         }
+        req.user = decoded;
+        next();
     });
-    next();
 }
 
-var logins = [
-    {email:'Simplicio@test.com', senha:'123'},
-    {email:'Micael@test.com', senha:'456'},
-    {email:'Ivine@test.com', senha:'789'},
+var lista = [
+    {cod: 1, nome: 'Produto A', qtd:10},
+    {cod: 2, nome: 'Produto B', qtd:5}
 ]
-
 app.post('/logar', (req, res) => {
     try {
         const { email, senha } = req.body
         if (email === process.env.EMAIL && senha === process.env.SENHA) {
-            let novoToken = jwt.sign({ email }, process.env.APP_KEY, { expiresIn: 9000 })
+            let novoToken = jwt.sign({ email }, process.env.APP_KEY, { expiresIn: 90000 })
 
             res.json({ logado: true, token: novoToken })
         } else {
@@ -43,16 +55,26 @@ app.post('/logar', (req, res) => {
     }
 });
 
+app.use(verificarJWT)
+
 app.post('/inserir', (req, res) => {
-    res.json({dado:req.body})
+    const item = req.body
+    lista.push(item)
+    res.json({dado:item, mensagem: "Item inserido"})
 })
 
-app.delete('/lista', (req, res) => {
-    pass
+app.delete('/delete/lista/:cod', (req, res) => {
+    const cod = Number(req.params.cod)
+    const inicial = lista.length
+    lista = lista.filter(i => i.cod !== cod)
+    if (lista.length === inicial) {
+        return res.status(404).json({error:true, mensagem: "Item não encontrado"})
+    }
+    res.json({ mensagem: "Item removido" })
 })
 
 app.get('/lista', (req, res) => {
-    res.json()
+    res.json(lista)
 })
 
 app.get('/lista/:cod', (req, res) => {
@@ -60,32 +82,26 @@ app.get('/lista/:cod', (req, res) => {
         const codItem = lista.find((item) => {
             return item.cod == req.params.cod
         });
+        if (!codItem) return res.status(404).json({error: true, mensagem: "Nenhum item encontrado"})
         res.json(codItem)
     } catch (error) {
-        res.json({error: true, mensagem: "Nenhum item encontrado"})
+        res.json({error: true, mensagem: "Erro ao tentar buscar o item"})
     }
 })
 
-app.get('/dowload', (req, res) => {
-    res.download('recursos/lista.pdf')
-})
-
-
-
-loginRouter.get('/logar/:email/:senha', (req, res) => {
+app.get('/download/lista', (req, res) => {
     try {
-        const loginEncontrado = login.find((item1,item2) => {
-            return item1.email == req.params.email && item2.senha == req.params.senha
+        const pdf = new PDFKIT()
+        pdf.text('Lista do Estoque')
+        lista.forEach(i => pdf.text(`${i.cod} - ${i.nome} (qtd: ${i.qtd})`))
+        pdf.end()
+        pdf.pipe(fs.createWriteStream('relatorio_lista.pdf')).on('finish', () => {
+            res.download('./relatorio_lista.pdf')
         })
-        res.json(loginEncontrado)
-
     } catch (error) {
-        res.json({error: true, mensagem: 'Não foi possível recupar os dados.'})
+        res.json({mensagem:'Erro na geração do relatório'})
     }
 })
-
-
-
 
 
 app.listen(3000)
