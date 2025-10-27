@@ -36,10 +36,18 @@ const verificarJWT = (req, res, next) => {
     });
 }
 
-var lista = [
-    {cod: 1, nome: 'Produto A', qtd:10},
-    {cod: 2, nome: 'Produto B', qtd:5}
-]
+var geraLista = (() => {
+    const array = []
+    for (let i = 1; i <= 50; i++) {
+        array.push({
+            cod: i, nome: `produto ${i}`.toLowerCase(),
+            qtd: Math.floor(Math.random() * 100) + 10
+        })
+    }
+    return array
+})
+
+var lista = geraLista()
 app.post('/logar', (req, res) => {
     try {
         const { email, senha } = req.body
@@ -55,7 +63,7 @@ app.post('/logar', (req, res) => {
     }
 });
 
-app.use(verificarJWT)
+//app.use(verificarJWT)
 
 app.post('/inserir', (req, res) => {
     const item = req.body
