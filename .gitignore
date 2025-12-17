@@ -1,6 +1,7 @@
 # Dependências
 node_modules/
 
+coverage/
 # Variáveis de ambiente
 .env
 .env.local

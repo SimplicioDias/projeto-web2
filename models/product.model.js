@@ -9,7 +9,8 @@ const ProductSchema = new mongoose.Schema({
   markup: { type: Number, default: 1.5 },
   cost_price: { type: Number, required: true },
   selling_price: { type: Number, required: true },
-  imageUrl: { type: String }
+  imageUrl: { type: String },
+  // imagePublicId: { type: String }, // <-- novo campo para controlar remoção no Cloudinary
 });
 
 module.exports = mongoose.model("Product", ProductSchema);

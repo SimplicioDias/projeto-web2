@@ -1,88 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1765339986904" clover="3.2.0">
-  <project timestamp="1765339986905" name="All files">
-    <metrics statements="361" coveredstatements="194" conditionals="48" coveredconditionals="11" methods="43" coveredmethods="6" elements="452" coveredelements="211" complexity="0" loc="361" ncloc="361" packages="6" files="35" classes="35"/>
-    <package name="proj-web2">
-      <metrics statements="18" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="0"/>
-      <file name="server.js" path="C:\Users\micae\Downloads\proj-web2\server.js">
-        <metrics statements="18" coveredstatements="15" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="22" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="25" count="1" type="cond" truecount="1" falsecount="1"/>
+<coverage generated="1765373894471" clover="3.2.0">
+  <project timestamp="1765373894471" name="All files">
+    <metrics statements="409" coveredstatements="204" conditionals="74" coveredconditionals="12" methods="46" coveredmethods="8" elements="529" coveredelements="224" complexity="0" loc="409" ncloc="409" packages="6" files="35" classes="35"/>
+    <package name="projeto-web2">
+      <metrics statements="18" coveredstatements="16" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="server.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/server.js">
+        <metrics statements="18" coveredstatements="16" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="26" count="0" type="stmt"/>
         <line num="27" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="proj-web2.config">
+    <package name="projeto-web2.config">
       <metrics statements="23" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="1"/>
-      <file name="cloudinary.js" path="C:\Users\micae\Downloads\proj-web2\config\cloudinary.js">
+      <file name="cloudinary.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/config/cloudinary.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="mongo.js" path="C:\Users\micae\Downloads\proj-web2\config\mongo.js">
+      <file name="mongo.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/config/mongo.js">
         <metrics statements="11" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="8" count="0" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
       </file>
-      <file name="multer.js" path="C:\Users\micae\Downloads\proj-web2\config\multer.js">
+      <file name="multer.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/config/multer.js">
         <metrics statements="9" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="proj-web2.controllers">
-      <metrics statements="199" coveredstatements="44" conditionals="42" coveredconditionals="7" methods="37" coveredmethods="5"/>
-      <file name="auth.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\auth.controller.js">
-        <metrics statements="13" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="0" type="stmt"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+    <package name="projeto-web2.controllers">
+      <metrics statements="212" coveredstatements="49" conditionals="46" coveredconditionals="8" methods="38" coveredmethods="6"/>
+      <file name="auth.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/auth.controller.js">
+        <metrics statements="13" coveredstatements="8" conditionals="4" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="17" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
       </file>
-      <file name="categories.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\categories.controller.js">
+      <file name="categories.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/categories.controller.js">
         <metrics statements="25" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -107,23 +107,36 @@
         <line num="51" count="0" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
       </file>
-      <file name="movement_items.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\movement_items.controller.js">
-        <metrics statements="10" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="0" type="stmt"/>
+      <file name="movement_items.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/movement_items.controller.js">
+        <metrics statements="23" coveredstatements="3" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
-        <line num="11" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
         <line num="19" count="0" type="stmt"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
       </file>
-      <file name="price-adjustment.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\price-adjustment.controller.js">
+      <file name="price-adjustment.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/price-adjustment.controller.js">
         <metrics statements="10" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -133,11 +146,11 @@
         <line num="19" count="0" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
       </file>
-      <file name="product.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\product.controller.js">
+      <file name="product.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/product.controller.js">
         <metrics statements="30" coveredstatements="23" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
@@ -166,10 +179,10 @@
         <line num="66" count="1" type="stmt"/>
         <line num="68" count="0" type="stmt"/>
       </file>
-      <file name="stock.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\stock.controller.js">
+      <file name="stock.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/stock.controller.js">
         <metrics statements="25" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
@@ -194,10 +207,10 @@
         <line num="57" count="0" type="stmt"/>
         <line num="59" count="0" type="stmt"/>
       </file>
-      <file name="stock_movement.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\stock_movement.controller.js">
+      <file name="stock_movement.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/stock_movement.controller.js">
         <metrics statements="25" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -222,10 +235,10 @@
         <line num="51" count="0" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
       </file>
-      <file name="suppliers.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\suppliers.controller.js">
+      <file name="suppliers.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/suppliers.controller.js">
         <metrics statements="25" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -250,11 +263,11 @@
         <line num="51" count="0" type="stmt"/>
         <line num="53" count="0" type="stmt"/>
       </file>
-      <file name="user.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\user.controller.js">
+      <file name="user.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/user.controller.js">
         <metrics statements="11" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
@@ -264,10 +277,10 @@
         <line num="22" count="0" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
       </file>
-      <file name="warehouses.controller.js" path="C:\Users\micae\Downloads\proj-web2\controllers\warehouses.controller.js">
+      <file name="warehouses.controller.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/controllers/warehouses.controller.js">
         <metrics statements="25" coveredstatements="2" conditionals="6" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="5" count="0" type="stmt"/>
         <line num="6" count="0" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
@@ -293,197 +306,232 @@
         <line num="53" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="proj-web2.middlewares">
+    <package name="projeto-web2.middlewares">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-      <file name="errorHandler.js" path="C:\Users\micae\Downloads\proj-web2\middlewares\errorHandler.js">
+      <file name="errorHandler.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/middlewares/errorHandler.js">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
         <line num="2" count="0" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="proj-web2.models">
-      <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="category.model.js" path="C:\Users\micae\Downloads\proj-web2\models\category.model.js">
+    <package name="projeto-web2.models">
+      <metrics statements="62" coveredstatements="31" conditionals="22" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="category.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/category.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
-      <file name="movement-items.model.js" path="C:\Users\micae\Downloads\proj-web2\models\movement-items.model.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+      <file name="movement-items.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/movement-items.model.js">
+        <metrics statements="38" coveredstatements="7" conditionals="22" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="67" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="99" count="3" type="stmt"/>
       </file>
-      <file name="price-adjustment.model.js" path="C:\Users\micae\Downloads\proj-web2\models\price-adjustment.model.js">
+      <file name="price-adjustment.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/price-adjustment.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
-      <file name="product.model.js" path="C:\Users\micae\Downloads\proj-web2\models\product.model.js">
+      <file name="product.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/product.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
       </file>
-      <file name="stock-movements.model.js" path="C:\Users\micae\Downloads\proj-web2\models\stock-movements.model.js">
+      <file name="stock-movements.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/stock-movements.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
       </file>
-      <file name="stock.model.js" path="C:\Users\micae\Downloads\proj-web2\models\stock.model.js">
+      <file name="stock.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/stock.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
       </file>
-      <file name="supplier.model.js" path="C:\Users\micae\Downloads\proj-web2\models\supplier.model.js">
+      <file name="supplier.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/supplier.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="user.model.js" path="C:\Users\micae\Downloads\proj-web2\models\user.model.js">
+      <file name="user.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/user.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
       </file>
-      <file name="warehouse.model.js" path="C:\Users\micae\Downloads\proj-web2\models\warehouse.model.js">
+      <file name="warehouse.model.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/models/warehouse.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="proj-web2.routes">
+    <package name="projeto-web2.routes">
       <metrics statements="91" coveredstatements="91" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="auth.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\auth.routes.js">
+      <file name="auth.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/auth.routes.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
       </file>
-      <file name="categories.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\categories.routes.js">
+      <file name="categories.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/categories.routes.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
       </file>
-      <file name="index.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\index.routes.js">
+      <file name="index.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/index.routes.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
       </file>
-      <file name="movement.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\movement.routes.js">
+      <file name="movement.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/movement.routes.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="price_adjustment.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\price_adjustment.routes.js">
+      <file name="price_adjustment.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/price_adjustment.routes.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="products.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\products.routes.js">
+      <file name="products.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/products.routes.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
       </file>
-      <file name="stock.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\stock.routes.js">
+      <file name="stock.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/stock.routes.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
-      <file name="stock_movement.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\stock_movement.routes.js">
+      <file name="stock_movement.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/stock_movement.routes.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
-      <file name="suppliers.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\suppliers.routes.js">
+      <file name="suppliers.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/suppliers.routes.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
-      <file name="users.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\users.routes.js">
+      <file name="users.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/users.routes.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
       </file>
-      <file name="warehouses.routes.js" path="C:\Users\micae\Downloads\proj-web2\routes\warehouses.routes.js">
+      <file name="warehouses.routes.js" path="/home/simplicio/Documentos/WEB2/projeto-web2/routes/warehouses.routes.js">
         <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
     </package>
   </project>
